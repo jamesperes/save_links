@@ -1,6 +1,6 @@
 import requests
 
-r = requests.get('https://api.telegram.org/bot299717453:AAFJl8cG_xvmMRdRSgs2mlbTPDUCT51V91g/getUpdates')
+r = requests.get('')
 print(r.json().get('result')[-1].get('message').get('text'))
 text = r.json().get('result')[-1].get('message').get('text')
 
