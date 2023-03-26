@@ -1,5 +1,5 @@
 import requests
-from settings import URL_TELEGRAM, AUTH_TOKEN
+from save_link.settings import URL_TELEGRAM, AUTH_TOKEN
 import gistyc
 
 def save_link():
